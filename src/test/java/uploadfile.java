@@ -25,8 +25,8 @@ import static io.restassured.RestAssured.sessionId;
 
 
 public class uploadfile {
-    public String username = "shubhamr";    //lambda UserName
-    public String accesskey = "bKCQ8wHNM5QHi8m3c9vc9JecZjXeWN34SfNIEBYZywYAPoC87Z"; //lambda accessKey
+    public String username = "";    //lambda UserName
+    public String accesskey = ""; //lambda accessKey
     public RemoteWebDriver driver;
     public String gridURL = "@hub.lambdatest.com/wd/hub";
     String status;
