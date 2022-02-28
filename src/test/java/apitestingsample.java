@@ -85,7 +85,7 @@ public class apitestingsample {
         try {
             //to save the console output on to a txt file
 
-           System.setOut(new PrintStream(new FileOutputStream("/home/ubuntu/workspace/Internet Store Terminal Logs/"+session+".txt")));
+           System.setOut(new PrintStream(new FileOutputStream("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Scholastic Project\\"+session+".txt")));
 //
 //            File dir = new File("D:\\API_Sample-master\\output");
 //            if(!dir.exists()) {
