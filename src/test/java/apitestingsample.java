@@ -49,9 +49,10 @@ public class apitestingsample {
         capabilities.setCapability("browserVersion", version);
         capabilities.setCapability("platformName", platform);
         capabilities.setCapability("resolution",resolution);
-        capabilities.setCapability("build", "API_TESTING_SAMPLE_LAMBDATEST");
+        capabilities.setCapability("build", "API_TESTING_SAMPLE");
         capabilities.setCapability("console",true);
         //capabilities.setCapability("name","TestID12345");
+        capabilities.setCapability("terminal",true);
 
 
         try {
