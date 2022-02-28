@@ -13,555 +13,555 @@
         </classes>
     </test>
 
-    <test name="Win10 - Chrome2">
-        <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="94.0"/>
-        <parameter name="platform" value="Windows 10"/>
-        <parameter name="resolution" value="1280x800"/>
-        <classes>
-            <class name="apitestingsample"/>
-            <class name="uploadfile"></class>
-        </classes>
-    </test>
-
-        <test name="Win10 - Chrome3">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="93.0"/>
-            <parameter name="platform" value="Windows 10"/>
-            <parameter name="resolution" value="1280x1024"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-
-            </classes>
-        </test>
-
-        <test name="Win10 - Chrome4">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="92.0"/>
-            <parameter name="platform" value="Windows 10"/>
-            <parameter name="resolution" value="1366x768"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win10 - Chrome5">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="91.0"/>
-            <parameter name="platform" value="Windows 10"/>
-            <parameter name="resolution" value="1440x900"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win8 - Chrome6">
+    <!--     <test name="Win10 - Chrome2">
             <parameter name="browser" value="Chrome"/>
             <parameter name="version" value="94.0"/>
-            <parameter name="platform" value="Windows 8"/>
-            <parameter name="resolution" value="1280x1024"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win8 - Chrome7">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="93.0"/>
-            <parameter name="platform" value="Windows 8"/>
-            <parameter name="resolution" value="1366x768"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win8 - Chrome8">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="92.0"/>
-            <parameter name="platform" value="Windows 8"/>
-            <parameter name="resolution" value="1440x900"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win8 - Chrome9">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="91.0"/>
-            <parameter name="platform" value="Windows 8"/>
-            <parameter name="resolution" value="1680x1050"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win8 - Chrome10">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="90.0"/>
-            <parameter name="platform" value="Windows 8"/>
-            <parameter name="resolution" value="1600x1200"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-
-    <test name="Win10 - Firefox1">
-        <parameter name="browser" value="Firefox"/>
-        <parameter name="version" value="84.0"/>
-        <parameter name="platform" value="Win10"/>
-        <parameter name="resolution" value="1920x1080"/>
-        <classes>
-            <class name="apitestingsample"/>
-            <class name="uploadfile"></class>
-        </classes>
-    </test>
-    <test name="Win8 - Firefox2">
-        <parameter name="browser" value="Firefox"/>
-        <parameter name="version" value="84.0"/>
-        <parameter name="platform" value="Win8"/>
-        <parameter name="resolution" value="1920x1080"/>
-        <classes>
-            <class name="apitestingsample"/>
-            <class name="uploadfile"></class>
-        </classes>
-    </test>
-
-        <test name="Win10 - Firefox3">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="92.0"/>
-            <parameter name="platform" value="Win10"/>
-            <parameter name="resolution" value="1280x1024"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win8 - Firefox4">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="92.0"/>
-            <parameter name="platform" value="Win8"/>
-            <parameter name="resolution" value="1280x1024"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-
-        <test name="Win10 - Firefox5">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="91.0"/>
-            <parameter name="platform" value="Win10"/>
-            <parameter name="resolution" value="1366x768"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win8 - Firefox6">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="91.0"/>
-            <parameter name="platform" value="Win8"/>
-            <parameter name="resolution" value="1366x768"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-
-        <test name="Win10 - Firefox7">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="90.0"/>
-            <parameter name="platform" value="Win10"/>
-            <parameter name="resolution" value="1440x900"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win8 - Firefox8">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="90.0"/>
-            <parameter name="platform" value="Win8"/>
-            <parameter name="resolution" value="1440x900"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-
-        <test name="Win10 - Firefox9">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="89.0"/>
-            <parameter name="platform" value="Win10"/>
-            <parameter name="resolution" value="1680x1050"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win8 - Firefox10">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="89.0"/>
-            <parameter name="platform" value="Win8"/>
-            <parameter name="resolution" value="1680x1050"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-
-
-    <test name="Win10 - Edge1">
-        <parameter name="browser" value="MicrosoftEdge"/>
-        <parameter name="version" value="87.0"/>
-        <parameter name="platform" value="Win10"/>
-        <parameter name="resolution" value="1920x1080"/>
-        <classes>
-            <class name="apitestingsample"/>
-            <class name="uploadfile"></class>
-        </classes>
-    </test>
-
-    <test name="Win8 - Edge2">
-        <parameter name="browser" value="MicrosoftEdge"/>
-        <parameter name="version" value="87.0"/>
-        <parameter name="platform" value="Win8"/>
-        <parameter name="resolution" value="1920x1080"/>
-        <classes>
-            <class name="apitestingsample"/>
-            <class name="uploadfile"></class>
-        </classes>
-    </test>
-
-        <test name="Win10 - Edge3">
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="95.0"/>
-            <parameter name="platform" value="Win10"/>
+            <parameter name="platform" value="Windows 10"/>
             <parameter name="resolution" value="1280x800"/>
             <classes>
                 <class name="apitestingsample"/>
                 <class name="uploadfile"></class>
             </classes>
         </test>
-        <test name="Win8 - Edge4">
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="95.0"/>
-            <parameter name="platform" value="Win8"/>
-            <parameter name="resolution" value="1280x800"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Win10 - Edge5">
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="92.0"/>
+    
+            <test name="Win10 - Chrome3">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="93.0"/>
+                <parameter name="platform" value="Windows 10"/>
+                <parameter name="resolution" value="1280x1024"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+    
+                </classes>
+            </test>
+    
+            <test name="Win10 - Chrome4">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="92.0"/>
+                <parameter name="platform" value="Windows 10"/>
+                <parameter name="resolution" value="1366x768"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win10 - Chrome5">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="91.0"/>
+                <parameter name="platform" value="Windows 10"/>
+                <parameter name="resolution" value="1440x900"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Chrome6">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="94.0"/>
+                <parameter name="platform" value="Windows 8"/>
+                <parameter name="resolution" value="1280x1024"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Chrome7">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="93.0"/>
+                <parameter name="platform" value="Windows 8"/>
+                <parameter name="resolution" value="1366x768"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Chrome8">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="92.0"/>
+                <parameter name="platform" value="Windows 8"/>
+                <parameter name="resolution" value="1440x900"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Chrome9">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="91.0"/>
+                <parameter name="platform" value="Windows 8"/>
+                <parameter name="resolution" value="1680x1050"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Chrome10">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="version" value="90.0"/>
+                <parameter name="platform" value="Windows 8"/>
+                <parameter name="resolution" value="1600x1200"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+    
+        <test name="Win10 - Firefox1">
+            <parameter name="browser" value="Firefox"/>
+            <parameter name="version" value="84.0"/>
             <parameter name="platform" value="Win10"/>
-            <parameter name="resolution" value="1280x1024"/>
+            <parameter name="resolution" value="1920x1080"/>
             <classes>
                 <class name="apitestingsample"/>
                 <class name="uploadfile"></class>
             </classes>
         </test>
-        <test name="Win8 - Edge6">
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="92.0"/>
+        <test name="Win8 - Firefox2">
+            <parameter name="browser" value="Firefox"/>
+            <parameter name="version" value="84.0"/>
             <parameter name="platform" value="Win8"/>
-            <parameter name="resolution" value="1280x1024"/>
+            <parameter name="resolution" value="1920x1080"/>
             <classes>
                 <class name="apitestingsample"/>
                 <class name="uploadfile"></class>
             </classes>
         </test>
-        <test name="Win10 - Edge7">
+    
+            <test name="Win10 - Firefox3">
+                <parameter name="browser" value="Firefox"/>
+                <parameter name="version" value="92.0"/>
+                <parameter name="platform" value="Win10"/>
+                <parameter name="resolution" value="1280x1024"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Firefox4">
+                <parameter name="browser" value="Firefox"/>
+                <parameter name="version" value="92.0"/>
+                <parameter name="platform" value="Win8"/>
+                <parameter name="resolution" value="1280x1024"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+    
+            <test name="Win10 - Firefox5">
+                <parameter name="browser" value="Firefox"/>
+                <parameter name="version" value="91.0"/>
+                <parameter name="platform" value="Win10"/>
+                <parameter name="resolution" value="1366x768"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Firefox6">
+                <parameter name="browser" value="Firefox"/>
+                <parameter name="version" value="91.0"/>
+                <parameter name="platform" value="Win8"/>
+                <parameter name="resolution" value="1366x768"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+    
+            <test name="Win10 - Firefox7">
+                <parameter name="browser" value="Firefox"/>
+                <parameter name="version" value="90.0"/>
+                <parameter name="platform" value="Win10"/>
+                <parameter name="resolution" value="1440x900"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Firefox8">
+                <parameter name="browser" value="Firefox"/>
+                <parameter name="version" value="90.0"/>
+                <parameter name="platform" value="Win8"/>
+                <parameter name="resolution" value="1440x900"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+    
+            <test name="Win10 - Firefox9">
+                <parameter name="browser" value="Firefox"/>
+                <parameter name="version" value="89.0"/>
+                <parameter name="platform" value="Win10"/>
+                <parameter name="resolution" value="1680x1050"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Firefox10">
+                <parameter name="browser" value="Firefox"/>
+                <parameter name="version" value="89.0"/>
+                <parameter name="platform" value="Win8"/>
+                <parameter name="resolution" value="1680x1050"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+    
+    
+        <test name="Win10 - Edge1">
             <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="91.0"/>
+            <parameter name="version" value="87.0"/>
             <parameter name="platform" value="Win10"/>
-            <parameter name="resolution" value="1366x768"/>
+            <parameter name="resolution" value="1920x1080"/>
             <classes>
                 <class name="apitestingsample"/>
                 <class name="uploadfile"></class>
             </classes>
         </test>
-        <test name="Win8 - Edge8">
+    
+        <test name="Win8 - Edge2">
             <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="91.0"/>
+            <parameter name="version" value="87.0"/>
             <parameter name="platform" value="Win8"/>
-            <parameter name="resolution" value="1366x768"/>
+            <parameter name="resolution" value="1920x1080"/>
             <classes>
                 <class name="apitestingsample"/>
                 <class name="uploadfile"></class>
             </classes>
         </test>
+    
+            <test name="Win10 - Edge3">
+                <parameter name="browser" value="MicrosoftEdge"/>
+                <parameter name="version" value="95.0"/>
+                <parameter name="platform" value="Win10"/>
+                <parameter name="resolution" value="1280x800"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Edge4">
+                <parameter name="browser" value="MicrosoftEdge"/>
+                <parameter name="version" value="95.0"/>
+                <parameter name="platform" value="Win8"/>
+                <parameter name="resolution" value="1280x800"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win10 - Edge5">
+                <parameter name="browser" value="MicrosoftEdge"/>
+                <parameter name="version" value="92.0"/>
+                <parameter name="platform" value="Win10"/>
+                <parameter name="resolution" value="1280x1024"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Edge6">
+                <parameter name="browser" value="MicrosoftEdge"/>
+                <parameter name="version" value="92.0"/>
+                <parameter name="platform" value="Win8"/>
+                <parameter name="resolution" value="1280x1024"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win10 - Edge7">
+                <parameter name="browser" value="MicrosoftEdge"/>
+                <parameter name="version" value="91.0"/>
+                <parameter name="platform" value="Win10"/>
+                <parameter name="resolution" value="1366x768"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+            <test name="Win8 - Edge8">
+                <parameter name="browser" value="MicrosoftEdge"/>
+                <parameter name="version" value="91.0"/>
+                <parameter name="platform" value="Win8"/>
+                <parameter name="resolution" value="1366x768"/>
+                <classes>
+                    <class name="apitestingsample"/>
+                    <class name="uploadfile"></class>
+                </classes>
+            </test>
+    
+        <!-Mac Mojave-->
+    <!--<test name="Mac - Safari1">-->
+    <!--    <parameter name="browser" value="Safari"/>-->
+    <!--    <parameter name="version" value="12.0"/>-->
+    <!--    <parameter name="platform" value="Macos Mojave"/>-->
+    <!--    <parameter name="resolution" value="1920x1080"/>-->
+    <!--    <classes>-->
+    <!--        <class name="apitestingsample"/>-->
+    <!--        <class name="uploadfile"></class>-->
+    <!--    </classes>-->
+    <!--</test>-->
+    <!--<test name="Mac - Safari2">-->
+    <!--    <parameter name="browser" value="Safari"/>-->
+    <!--    <parameter name="version" value="12.0"/>-->
+    <!--    <parameter name="platform" value="Macos Mojave"/>-->
+    <!--    <parameter name="resolution" value="1280x960"/>-->
+    <!--    <classes>-->
+    <!--        <class name="apitestingsample"/>-->
+    <!--        <class name="uploadfile"></class>-->
+    <!--    </classes>-->
+    <!--</test>-->
+    <!--    <test name="Mac - Safari3">-->
+    <!--        <parameter name="browser" value="Safari"/>-->
+    <!--        <parameter name="version" value="12.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x1024"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Safari4">-->
+    <!--        <parameter name="browser" value="Safari"/>-->
+    <!--        <parameter name="version" value="12.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1440x900"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Safari5">-->
+    <!--        <parameter name="browser" value="Safari"/>-->
+    <!--        <parameter name="version" value="12.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Safari6">-->
+    <!--        <parameter name="browser" value="Safari"/>-->
+    <!--        <parameter name="version" value="12.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1600x1200"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Safari7">-->
+    <!--        <parameter name="browser" value="Safari"/>-->
+    <!--        <parameter name="version" value="12.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="2048x1536"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--<test name="Mac - Chrome1">-->
+    <!--    <parameter name="browser" value="Chrome"/>-->
+    <!--    <parameter name="version" value="87.0"/>-->
+    <!--    <parameter name="platform" value="Macos Mojave"/>-->
+    <!--    <parameter name="resolution" value="1920x1080"/>-->
+    <!--    <classes>-->
+    <!--        <class name="apitestingsample"/>-->
+    <!--        <class name="uploadfile"></class>-->
+    <!--    </classes>-->
+    <!--</test>-->
 
-    <!--Mac Mojave-->
-    <test name="Mac - Safari1">
-        <parameter name="browser" value="Safari"/>
-        <parameter name="version" value="12.0"/>
-        <parameter name="platform" value="Macos Mojave"/>
-        <parameter name="resolution" value="1920x1080"/>
-        <classes>
-            <class name="apitestingsample"/>
-            <class name="uploadfile"></class>
-        </classes>
-    </test>
-    <test name="Mac - Safari2">
-        <parameter name="browser" value="Safari"/>
-        <parameter name="version" value="12.0"/>
-        <parameter name="platform" value="Macos Mojave"/>
-        <parameter name="resolution" value="1280x960"/>
-        <classes>
-            <class name="apitestingsample"/>
-            <class name="uploadfile"></class>
-        </classes>
-    </test>
-        <test name="Mac - Safari3">
-            <parameter name="browser" value="Safari"/>
-            <parameter name="version" value="12.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x1024"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Safari4">
-            <parameter name="browser" value="Safari"/>
-            <parameter name="version" value="12.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1440x900"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Safari5">
-            <parameter name="browser" value="Safari"/>
-            <parameter name="version" value="12.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Safari6">
-            <parameter name="browser" value="Safari"/>
-            <parameter name="version" value="12.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1600x1200"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Safari7">
-            <parameter name="browser" value="Safari"/>
-            <parameter name="version" value="12.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="2048x1536"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-    <test name="Mac - Chrome1">
-        <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="87.0"/>
-        <parameter name="platform" value="Macos Mojave"/>
-        <parameter name="resolution" value="1920x1080"/>
-        <classes>
-            <class name="apitestingsample"/>
-            <class name="uploadfile"></class>
-        </classes>
-    </test>
-
-    <test name="Mac - Chrome2">
-        <parameter name="browser" value="Chrome"/>
-        <parameter name="version" value="90.0"/>
-        <parameter name="platform" value="Macos Mojave"/>
-        <parameter name="resolution" value="1920x1080"/>
-        <classes>
-            <class name="apitestingsample"/>
-            <class name="uploadfile"></class>
-        </classes>
-    </test>
-        <test name="Mac - Chrome3">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="91.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1920x1080"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Chrome4">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="92.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1920x1080"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Chrome5">
-            <parameter name="browser" value="Chrome"/>
-            <parameter name="version" value="93.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1920x1080"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Firefox1">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="93.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Firefox2">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="92.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Firefox3">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="91.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Firefox4">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="90.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Firefox5">
-            <parameter name="browser" value="Firefox"/>
-            <parameter name="version" value="89.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Edge1">
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="88.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Edge2">
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="89.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Edge3">
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="90.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Edge4">
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="91.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-        <test name="Mac - Edge5">
-            <parameter name="browser" value="MicrosoftEdge"/>
-            <parameter name="version" value="92.0"/>
-            <parameter name="platform" value="Macos Mojave"/>
-            <parameter name="resolution" value="1280x960"/>
-            <classes>
-                <class name="apitestingsample"/>
-                <class name="uploadfile"></class>
-            </classes>
-        </test>
-<!--        <test name="Mac - Opera1">-->
-<!--            <parameter name="browser" value="Opera"/>-->
-<!--            <parameter name="version" value="79.0"/>-->
-<!--            <parameter name="platform" value="Macos Mojave"/>-->
-<!--            <parameter name="resolution" value="1280x960"/>-->
-<!--            <classes>-->
-<!--                <class name="apitestingsample"/>-->
-<!--            </classes>-->
-<!--        </test>-->
-<!--        <test name="Mac - Opera2">-->
-<!--            <parameter name="browser" value="Opera"/>-->
-<!--            <parameter name="version" value="78.0"/>-->
-<!--            <parameter name="platform" value="Macos Mojave"/>-->
-<!--            <parameter name="resolution" value="1280x960"/>-->
-<!--            <classes>-->
-<!--                <class name="apitestingsample"/>-->
-<!--            </classes>-->
-<!--        </test>-->
-<!--        <test name="Mac - Opera3">-->
-<!--            <parameter name="browser" value="Opera"/>-->
-<!--            <parameter name="version" value="77.0"/>-->
-<!--            <parameter name="platform" value="Macos Mojave"/>-->
-<!--            <parameter name="resolution" value="1280x960"/>-->
-<!--            <classes>-->
-<!--                <class name="apitestingsample"/>-->
-<!--            </classes>-->
-<!--        </test>-->
-<!--        <test name="Mac - Opera4">-->
-<!--            <parameter name="browser" value="Opera"/>-->
-<!--            <parameter name="version" value="76.0"/>-->
-<!--            <parameter name="platform" value="Macos Mojave"/>-->
-<!--            <parameter name="resolution" value="1280x960"/>-->
-<!--            <classes>-->
-<!--                <class name="apitestingsample"/>-->
-<!--            </classes>-->
-<!--        </test>-->
-<!--        <test name="Mac - Opera5">-->
-<!--            <parameter name="browser" value="Opera"/>-->
-<!--            <parameter name="version" value="75.0"/>-->
-<!--            <parameter name="platform" value="Macos Mojave"/>-->
-<!--            <parameter name="resolution" value="1280x960"/>-->
-<!--            <classes>-->
-<!--                <class name="apitestingsample"/>-->
-<!--            </classes>-->
-<!--        </test>-->
+    <!--<test name="Mac - Chrome2">-->
+    <!--    <parameter name="browser" value="Chrome"/>-->
+    <!--    <parameter name="version" value="90.0"/>-->
+    <!--    <parameter name="platform" value="Macos Mojave"/>-->
+    <!--    <parameter name="resolution" value="1920x1080"/>-->
+    <!--    <classes>-->
+    <!--        <class name="apitestingsample"/>-->
+    <!--        <class name="uploadfile"></class>-->
+    <!--    </classes>-->
+    <!--</test>-->
+    <!--    <test name="Mac - Chrome3">-->
+    <!--        <parameter name="browser" value="Chrome"/>-->
+    <!--        <parameter name="version" value="91.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1920x1080"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Chrome4">-->
+    <!--        <parameter name="browser" value="Chrome"/>-->
+    <!--        <parameter name="version" value="92.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1920x1080"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Chrome5">-->
+    <!--        <parameter name="browser" value="Chrome"/>-->
+    <!--        <parameter name="version" value="93.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1920x1080"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Firefox1">-->
+    <!--        <parameter name="browser" value="Firefox"/>-->
+    <!--        <parameter name="version" value="93.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Firefox2">-->
+    <!--        <parameter name="browser" value="Firefox"/>-->
+    <!--        <parameter name="version" value="92.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Firefox3">-->
+    <!--        <parameter name="browser" value="Firefox"/>-->
+    <!--        <parameter name="version" value="91.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Firefox4">-->
+    <!--        <parameter name="browser" value="Firefox"/>-->
+    <!--        <parameter name="version" value="90.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Firefox5">-->
+    <!--        <parameter name="browser" value="Firefox"/>-->
+    <!--        <parameter name="version" value="89.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Edge1">-->
+    <!--        <parameter name="browser" value="MicrosoftEdge"/>-->
+    <!--        <parameter name="version" value="88.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Edge2">-->
+    <!--        <parameter name="browser" value="MicrosoftEdge"/>-->
+    <!--        <parameter name="version" value="89.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Edge3">-->
+    <!--        <parameter name="browser" value="MicrosoftEdge"/>-->
+    <!--        <parameter name="version" value="90.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Edge4">-->
+    <!--        <parameter name="browser" value="MicrosoftEdge"/>-->
+    <!--        <parameter name="version" value="91.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Mac - Edge5">-->
+    <!--        <parameter name="browser" value="MicrosoftEdge"/>-->
+    <!--        <parameter name="version" value="92.0"/>-->
+    <!--        <parameter name="platform" value="Macos Mojave"/>-->
+    <!--        <parameter name="resolution" value="1280x960"/>-->
+    <!--        <classes>-->
+    <!--            <class name="apitestingsample"/>-->
+    <!--            <class name="uploadfile"></class>-->
+    <!--        </classes>-->
+    <!--    </test> -->-->
+    <!--        <test name="Mac - Opera1">-->
+    <!--            <parameter name="browser" value="Opera"/>-->
+    <!--            <parameter name="version" value="79.0"/>-->
+    <!--            <parameter name="platform" value="Macos Mojave"/>-->
+    <!--            <parameter name="resolution" value="1280x960"/>-->
+    <!--            <classes>-->
+    <!--                <class name="apitestingsample"/>-->
+    <!--            </classes>-->
+    <!--        </test>-->
+    <!--        <test name="Mac - Opera2">-->
+    <!--            <parameter name="browser" value="Opera"/>-->
+    <!--            <parameter name="version" value="78.0"/>-->
+    <!--            <parameter name="platform" value="Macos Mojave"/>-->
+    <!--            <parameter name="resolution" value="1280x960"/>-->
+    <!--            <classes>-->
+    <!--                <class name="apitestingsample"/>-->
+    <!--            </classes>-->
+    <!--        </test>-->
+    <!--        <test name="Mac - Opera3">-->
+    <!--            <parameter name="browser" value="Opera"/>-->
+    <!--            <parameter name="version" value="77.0"/>-->
+    <!--            <parameter name="platform" value="Macos Mojave"/>-->
+    <!--            <parameter name="resolution" value="1280x960"/>-->
+    <!--            <classes>-->
+    <!--                <class name="apitestingsample"/>-->
+    <!--            </classes>-->
+    <!--        </test>-->
+    <!--        <test name="Mac - Opera4">-->
+    <!--            <parameter name="browser" value="Opera"/>-->
+    <!--            <parameter name="version" value="76.0"/>-->
+    <!--            <parameter name="platform" value="Macos Mojave"/>-->
+    <!--            <parameter name="resolution" value="1280x960"/>-->
+    <!--            <classes>-->
+    <!--                <class name="apitestingsample"/>-->
+    <!--            </classes>-->
+    <!--        </test>-->
+    <!--        <test name="Mac - Opera5">-->
+    <!--            <parameter name="browser" value="Opera"/>-->
+    <!--            <parameter name="version" value="75.0"/>-->
+    <!--            <parameter name="platform" value="Macos Mojave"/>-->
+    <!--            <parameter name="resolution" value="1280x960"/>-->
+    <!--            <classes>-->
+    <!--                <class name="apitestingsample"/>-->
+    <!--            </classes>-->
+    <!--        </test>-->
 
 </suite>
