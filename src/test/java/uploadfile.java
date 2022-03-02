@@ -66,8 +66,8 @@ public class uploadfile {
                cName=cName.replace("op","");
                String fName=cName.replace(".txt","");
 
-             System.out.print("cname===="+cName);
-              System.out.print("fname====="+fName);
+             //System.out.print("cname===="+cName);
+              //System.out.print("fname====="+fName);
 
 
 
