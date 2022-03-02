@@ -57,7 +57,7 @@ public class uploadfile {
                // System.out.println("File ---------------------------->" + fileName);
                 String gName = fileName;
                 gName= gName.replaceAll("[-]","");
-                System.out.print("replacegname:"+gName);
+               // System.out.print("replacegname:"+gName);
                gName = gName.substring(6, 38);
 
               // System.out.print("GNAME substring:------------>"+gName);
@@ -72,7 +72,7 @@ public class uploadfile {
 
 
                 File testUploadFile = new File("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Scholastic Project\\"+"output"+cName+"");
-                System.out.print(testUploadFile);
+               // System.out.print(testUploadFile);
 
                 RestAssured.baseURI = "https://api.lambdatest.com/automation/api/v1/sessions/"+fName+"/terminal-logs";
 
@@ -81,8 +81,8 @@ public class uploadfile {
                         .multiPart(testUploadFile)
                         .when().post();
 
-                System.out.println(response.getStatusCode());
-                System.out.println(response.asString());
+               // System.out.println(response.getStatusCode());
+               // System.out.println(response.asString());
 
                 //System.out.print("---------------->"+i);
             }
