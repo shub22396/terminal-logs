@@ -60,7 +60,7 @@ public class uploadfile {
                 System.out.print("replacegname:"+gName);
                gName = gName.substring(6, 38);
 
-               System.out.print("GNAME substring:------------>"+gName);
+              // System.out.print("GNAME substring:------------>"+gName);
                String cName= fileName;
                cName=cName.replace("output","");
                cName=cName.replace("op","");
@@ -84,7 +84,7 @@ public class uploadfile {
                 System.out.println(response.getStatusCode());
                 System.out.println(response.asString());
 
-                System.out.print("---------------->"+i);
+                //System.out.print("---------------->"+i);
             }
         }
     }
