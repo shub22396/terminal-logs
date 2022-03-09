@@ -85,7 +85,12 @@ public class apitestingsample {
         try {
             //to save the console output on to a txt file
             
-            System.out.print("File is Initiated here======================================================");
+            System.out.println("File is Initiated here======================================================");
+            
+            
+            System.out.println("b----------u------p---------o------2----->");
+            
+            
 
            System.setOut(new PrintStream(new FileOutputStream("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Scholastic Project\\"+session+".txt")));
 //
@@ -115,7 +120,7 @@ public class apitestingsample {
             status = "passed";
             b=b+1;
 
-            System.out.print("b----------u------p---------o------2----->");
+            
 
         }
         catch (Exception e) {
