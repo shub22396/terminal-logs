@@ -36,7 +36,7 @@
                 </classes>
             </test>
     
-        <!--    <test name="Win10 - Chrome4">
+            <test name="Win10 - Chrome4">
                 <parameter name="browser" value="Chrome"/>
                 <parameter name="version" value="92.0"/>
                 <parameter name="platform" value="Windows 10"/>
@@ -46,7 +46,7 @@
                     <class name="uploadfile"></class>
                 </classes>
             </test>
-            <test name="Win10 - Chrome5">
+          <!--  <test name="Win10 - Chrome5">
                 <parameter name="browser" value="Chrome"/>
                 <parameter name="version" value="91.0"/>
                 <parameter name="platform" value="Windows 10"/>
