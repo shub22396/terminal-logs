@@ -54,20 +54,20 @@ public class uploadfile {
         if (listOfFiles[i].isFile()) {
             String fileName = listOfFiles[i].getName();
             if (fileName.endsWith(".txt")) {
-               // System.out.println("File ---------------------------->" + fileName);
+                System.out.println("File ---------------------------->" + fileName);
                 String gName = fileName;
                 gName= gName.replaceAll("[-]","");
                // System.out.print("replacegname:"+gName);
                gName = gName.substring(6, 38);
 
-              // System.out.print("GNAME substring:------------>"+gName);
+               System.out.print("GNAME substring:------------>"+gName);
                String cName= fileName;
                cName=cName.replace("output","");
                cName=cName.replace("op","");
                String fName=cName.replace(".txt","");
 
-             //System.out.print("cname===="+cName);
-              //System.out.print("fname====="+fName);
+             System.out.print("cname===="+cName);
+              System.out.print("fname====="+fName);
 
 
 
